@@ -1,0 +1,33 @@
+{
+    "version": "1.0",
+    "keywords": [
+        "Luogu",
+        "node-webkit"
+    ],
+    "name": "Luogu Scoreboard Displayer",
+    "description": "Luogu Scoreboard Displayer",
+    "window": {
+        "fullscreen": false,
+        "title": "Luogu Scoreboard Displayer",
+        "resizable": true,
+        "show_in_taskbar": true,
+        "toolbar": true,
+        "as_desktop": false,
+        "position": "center",
+        "icon": "favicon.png",
+        "always_on_top": false,
+        "frame": true,
+        "kiosk": false,
+        "show": true,
+        "transparent": false
+    },
+    "single-instance": true,
+    "main": "index.html",
+    "chromium-args": "--disable-web-security --disable-features=CalculateNativeWinOcclusion --user-data-dir --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-renderer-backgrounding",
+    "double-tap-to-zoom-enabled": false,
+    "webkit": {
+        "page-cache": false,
+        "plugin": true,
+        "java": true
+    }
+}

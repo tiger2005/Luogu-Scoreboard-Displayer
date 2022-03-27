@@ -231,11 +231,18 @@ body > div{
 	position: relative;
 }
 .contestTitle{
-	height: 88px;
 	display: flex;
 	flex-direction: column;
 	background: #ccc;
 	transition: 0.3s;
+    position: relative;
+}
+#highchartsInterface{
+    width: 100%;
+    height: 30px;
+    z-index: 1;
+    display: none;
+    overflow: visible;
 }
 .contestProgress{
     height: 8px;
@@ -245,10 +252,10 @@ body > div{
 .contestTitleName{
 	font-weight: bold;
 	margin: 10px;
-	height: 60px;
+	height: 80px;
 	width: 50%;
 	border-left: 5px solid #999;
-	font-size: 24px;
+	font-size: 20px;
 	padding-left: 10px;
 }
 .contestTitleTimes{
@@ -256,16 +263,21 @@ body > div{
 	text-align: right;
 	margin: 10px;
 }
+.contestCompileInfo{
+    text-align: right;
+    height: 20px;
+    font-size: 16px;
+}
 .contestFb{
-	height: 80px;
+	height: 100px;
     padding: 10px;
     display: flex;
     flex-direction: row;
-	background: #ccc;
+	background: #ddd;
 }
 .contestFbTitle{
     font-size: 48px;
-    margin: 10px;
+    margin: 20px;
     font-weight: bold;
     margin-right: 20px;
     width: 200px;
@@ -276,13 +288,13 @@ body > div{
    flex-direction: row;
    margin: 5px 0px;
    overflow: hidden;
-   font-size: 16px;
+   font-size: 19px;
 }
 .contestFbProblemId{
     display: grid;
     place-items: center;
-    width: 22px;
-    height: 22px;
+    width: 25px;
+    height: 25px;
     border-radius: 5px;
     font-size: 14px;
 }
@@ -309,7 +321,7 @@ table{
 thead{
     position: sticky;
     top: 0px;
-    background: #ccc;
+    background: #ddd;
 }
 tr{
     width: 100%;
@@ -317,15 +329,37 @@ tr{
 td{
     padding: 11px 5px;
     text-align: center;
+    font-size: 18px;
 }
 tbody td{
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 tbody td.scoreCell{
-    padding: 0px 0px !important;
+    padding: 4px 3px !important;
 }
 thead td.scoreCell{
     width: 50px;
+}
+.firstBlood{
+    background: #bfeda8;
+}
+.acmScoreCell{
+    display: inline-grid;
+    place-items: center;
+    width: 26px;
+    height: 26px;
+    line-height: 1em !important;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.rankDiff{
+    width: 50px;
+}
+.rankInfo{
+    width: 50px;
+}
+.overallScore{
+    width: 85px;
 }
 
 :root{
@@ -410,7 +444,7 @@ thead td.scoreCell{
     font-weight: bold;
 }
 .userGray{
-    color: #a0a0a0;
+    color: #848484;
     font-weight: bold;
 }
 .userCheater{
