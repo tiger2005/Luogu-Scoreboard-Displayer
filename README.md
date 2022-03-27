@@ -9,7 +9,7 @@ A software that displays contest scoreboards in Luogu, with auto-refresh, auto-s
 
 After opening the software, you are required to input the contest ID. Then, a window will pop out, asking you to enter your account of Luogu (as anonymous user cannot fetch scoreboards of running contests). After loging in, you can close the window, and the auto-refresh will start.
 
-## Feature
+## Features
 
 ![L1_D25ZF D$R4A B(94O{_J](https://user-images.githubusercontent.com/41613797/160285671-9cdfa303-ba61-42b2-9e02-08c47e1ba4c1.png)
 
