@@ -48,7 +48,7 @@ jobs:
           LuoguScoreboardDisplayer.${{ steps.get_version.outputs.VERSION }}.osx64.zip
           LuoguScoreboardDisplayer.${{ steps.get_version.outputs.VERSION }}.linux32.zip
           LuoguScoreboardDisplayer.${{ steps.get_version.outputs.VERSION }}.linux64.zip
-        name: CCHv2 ${{ steps.get_version.outputs.VERSION }}
+        name: v${{ steps.get_version.outputs.VERSION }}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
    
