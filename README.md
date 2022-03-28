@@ -23,4 +23,4 @@ The interface includes:
 
 5-minute record count will refresh every 15 seconds, and the scoreboard with contest information will refresh every 30 seconds.
 
-The program uses [Font Awesome](https://fontawesome.com/) for icon designs.
+The program uses [Font Awesome](https://fontawesome.com/) for icon designs & [Highcharts](https://www.highcharts.com.cn/products/highcharts) for chart displays.
