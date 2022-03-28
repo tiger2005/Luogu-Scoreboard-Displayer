@@ -21,6 +21,8 @@ The interface includes:
 - Scoreboards with auto-scroll
 - First-blood records
 
-5-minute record count will refresh every 15 seconds, and the scoreboard with contest information will refresh every 30 seconds.
+5-minute record counts will refresh every 15 seconds, and the scoreboard with contest information will refresh every 30 seconds.
+
+**We promise not to use the login information for any operation other than the fetches of scoreboards and 5-minute record counts.** You can check out the javascript file in the source code.
 
 The program uses [Font Awesome](https://fontawesome.com/) for icon designs & [Highcharts](https://www.highcharts.com.cn/products/highcharts) for chart displays.
